@@ -12,6 +12,10 @@
 		C041EA42233F518100064278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C041EA40233F518100064278 /* Main.storyboard */; };
 		C041EA44233F518300064278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C041EA43233F518300064278 /* Assets.xcassets */; };
 		C041EA47233F518300064278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C041EA45233F518300064278 /* LaunchScreen.storyboard */; };
+		C041EA4F233F526C00064278 /* tennai1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C041EA4E233F526C00064278 /* tennai1.jpg */; };
+		C041EA51233F527500064278 /* gaikan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C041EA50233F527400064278 /* gaikan.jpg */; };
+		C041EA53233F527B00064278 /* tennai2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C041EA52233F527A00064278 /* tennai2.jpg */; };
+		C041EA55233F5CC100064278 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041EA54233F5CC100064278 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C041EA43233F518300064278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C041EA46233F518300064278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C041EA48233F518300064278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C041EA4E233F526C00064278 /* tennai1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennai1.jpg; sourceTree = "<group>"; };
+		C041EA50233F527400064278 /* gaikan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gaikan.jpg; sourceTree = "<group>"; };
+		C041EA52233F527A00064278 /* tennai2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennai2.jpg; sourceTree = "<group>"; };
+		C041EA54233F5CC100064278 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				C041EA3C233F518100064278 /* AppDelegate.swift */,
+				C041EA54233F5CC100064278 /* SecondViewController.swift */,
 				C041EA3E233F518100064278 /* ViewController.swift */,
 				C041EA40233F518100064278 /* Main.storyboard */,
+				C041EA4E233F526C00064278 /* tennai1.jpg */,
+				C041EA50233F527400064278 /* gaikan.jpg */,
+				C041EA52233F527A00064278 /* tennai2.jpg */,
 				C041EA43233F518300064278 /* Assets.xcassets */,
 				C041EA45233F518300064278 /* LaunchScreen.storyboard */,
 				C041EA48233F518300064278 /* Info.plist */,
@@ -124,7 +136,10 @@
 			files = (
 				C041EA47233F518300064278 /* LaunchScreen.storyboard in Resources */,
 				C041EA44233F518300064278 /* Assets.xcassets in Resources */,
+				C041EA4F233F526C00064278 /* tennai1.jpg in Resources */,
+				C041EA51233F527500064278 /* gaikan.jpg in Resources */,
 				C041EA42233F518100064278 /* Main.storyboard in Resources */,
+				C041EA53233F527B00064278 /* tennai2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C041EA55233F5CC100064278 /* SecondViewController.swift in Sources */,
 				C041EA3F233F518100064278 /* ViewController.swift in Sources */,
 				C041EA3D233F518100064278 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AF6MBN7LSX;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AF6MBN7LSX;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
