@@ -15,6 +15,8 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var secondView: UIImageView!
     
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -13,10 +13,16 @@ class ViewController: UIViewController {
     
     let images = [UIImage(named: "gaikan.jpg"), UIImage(named: "tennai1.jpg"), UIImage(named: "tennai2.jpg")]
     
-    var imageIndex: Int = 0
+    var imageIndex = 0
     
     var timer: Timer!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+   
     @IBAction func next(_ sender: Any) {
         if self.timer != nil {
         } else if imageIndex < 1 {
@@ -28,6 +34,7 @@ class ViewController: UIViewController {
         }
         imageView.image = images[imageIndex]
     }
+    
     
     @IBAction func back(_ sender: Any) {
         if self.timer != nil {
@@ -46,7 +53,9 @@ class ViewController: UIViewController {
             timer.invalidate()
             self.timer = nil
         }
+        
     }
+    
     @objc func updateTimer(_ timer: Timer){
         if imageIndex == 2 {
             imageIndex = 0
@@ -55,6 +64,7 @@ class ViewController: UIViewController {
         }
         imageView.image = images[imageIndex]
     }
+    
     
     @IBAction func tapImage(_ sender: Any) {
          performSegue(withIdentifier: "Second", sender: nil)
@@ -72,11 +82,5 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
 }
 
