@@ -19,15 +19,12 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       secondView.image = self.image1
-        }
+        secondView.image = self.image1
+    }
 
         // Do any additional setup after loading the view.
-       
-        
     
-    }
+}
     
 
 
